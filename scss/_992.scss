@@ -1,0 +1,30 @@
+
+
+
+@media (max-width: 1650px){
+
+    .fotorama{
+        display: none;
+    }
+
+    .steps__block{
+
+        &__title{
+            font-size: $fs14;
+            padding-left: 20%;
+            padding-top: 21%;
+        }
+
+        &__text{
+            padding-left: 20%;
+            padding-right: 7%;
+            font-size: $fs6;
+            margin-top: 7%;
+            width: 90%;
+        }
+
+        &__underscore{
+            margin-left: 20%;
+        }
+    }
+}
